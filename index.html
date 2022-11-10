@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Tharun Nookala</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">&lt;tharun&#47;&gt;</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="" alt="profile image">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Tharun Nookala</h1>
+            <h2>A Frontend Web Developer</h2>
+            <p> Systems Engineer at Infosys</p>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+    
+        <div class="about-container">
+            <div class="about-text">
+                <p>I am a passionate Front End Web Developer, with 1+ years of experience, working as Systems Engineer at Infosys. As I'm highly interested into web deveopment, I have been upskilling myself to the current technologies.
+                    React JS is most recent technology I have learnt and build myself few projects on. I am also Full Stack and Block Chain enthusiast. Out of Office you'll find me spending time with friends, binge watching movies, less-often reading books.
+                </p>
+            </div>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021 - Current </span><br>Systems Engineer at Infosys </li>
+                </ul>
+                <h2>Roles and Responsibilities</h2>
+                <ul>
+                    <li> Developed AEM Components as per the client's requirement.</li>
+                    <li> Worked on technologies like JavaScript, HTL(Sightly), CSS.</li>
+                    <li> Worked on AEM Forms, to implement Ajax Calls. </li>
+                    <li> Experienced in Authoring web pages.</li>
+                    <li> Led Go-Live sessions for few of the sites.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2017-2021</span><br>B.Tech in Information Technology - 7.1 CGPA</li>
+                    <li><span>2015-2017</span><br> TS BIE Intermediate (class 11th and 12th) - 96.3%</li>
+                    <li><span>2014-2015</span><br>TS BSE (class 10th) - 9.5 CGPA</li>
+                </ul>
+            </div>
+        </div>
+ 
+    </section>
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span></span>
+        </div>
+
+        <div class="skills-container">
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img"><img src="/images/html5.png" alt="html logo"></div>
+                    <h3>HTML5</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img"><img src="/images/css3.png" alt="css logo"></div>
+                    <h3>CSS3</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img"><img src="/images/js.png" alt="js logo"></div>
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img"><img src="/images/sass.png" alt="sass logo"></div>
+                    <h3>Sass</h3>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img"><img src="/images/react.png" alt="react logo"></div>
+                    <h3>React JS</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="projects" id="projects">
+        <div class="heading">
+            <h2>Projects</h2>
+            <span>My Recent Works</span>
+        </div>
+        <div class="portfolio-content">
+            <h1>This section will be available soon...</h1>        
+        </div>
+    </section> -->
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Feel Free to Connect With Me</span>
+        </div> 
+        <div class="contact__container">
+        <div class="contact-left">
+            <div class="contact__icon">
+                <a target="_blank" rel="noopener" href="mailto:iamtharun7799@gmail.com"><i class="bx bxs-envelope"></i></a>
+                <div class="contact__icon-description">iamtharun7799@gmail.com</div>
+            </div>               
+            <div class="contact__icon"><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/"><i class="bx bxl-linkedin"></i></a>
+                <div class="contact__icon-description">Tharun Nookala</div>
+            </div>
+            <div class="contact__icon"><a target="_blank" rel="noopener" href="https://instagram.com/"><i class="bx bxl-instagram"></i></a>
+                <div class="contact__icon-description">tharun_pn_</div>
+            </div>
+        </div>
+        <div class="contact-right">
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                <input type="button" value="Send" class="contact-button">
+            </form>
+        </div>
+        </div>
+    </section>
+    
+    <footer>&copy;  Tharun Nookala | 2022</footer>
+<script src="script.js"></script>
+</body>
+</html>
