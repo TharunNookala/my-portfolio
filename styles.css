@@ -38,7 +38,6 @@ body {
   }
 .heading span {
     font-size: var(--p-font);
-    /* color: rgb(2, 166, 70); */
     color: gray;
 }
 
@@ -204,9 +203,7 @@ header.shadow {
     margin: 1rem;
     padding: 1rem;
 }
-/* .skill-box{
-    margin: 1rem;
-} */
+
 .skill-box img{
     max-width: 50%;
     height: auto;
@@ -416,9 +413,9 @@ footer{
     .contact-button{
         width: 8rem;
         margin: 0;
-        /* align-self: center;
-        text-align: center;
-        justify-self: center; */
+    }
+    .skills-container{
+        height: auto;
     }
 }
 
@@ -458,4 +455,5 @@ footer{
     .tab-contents{
         display: none;
     }
+    
 }
