@@ -6,6 +6,7 @@ function opentab(tabname){
     }
     for(tabcontent of tabcontents){
         tabcontent.classList.remove("active-tab");
+        tabcontent.classList.remove("education");
     }
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
