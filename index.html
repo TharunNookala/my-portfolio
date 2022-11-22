@@ -10,7 +10,10 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">&lt;tharun&#47;&gt;</a>
+        <div class="logo__container">
+         <a href="#" class="logo">&lt;tharun&#47;&gt;</a>
+         <a target="_blank" rel="noopener" href="https://github.com/TharunNookala" class="github__icon"><i class="bx bxl-github"></i></a>
+        </div>
         <div class="bx bx-menu" id="menu-icon"></div>
 
         <ul class="navbar">
@@ -32,7 +35,7 @@
             <h1>Tharun Nookala</h1>
             <h2>A Frontend Web Developer</h2>
             <p> Systems Engineer at Infosys</p>
-            <a href="#" class="btn">Download CV</a>
+            <a href="Tharun_Resume.pdf" download class="btn" rel="noopener">Download CV</a>
         </div>
     </section>
 
@@ -154,8 +157,8 @@
         <div class="contact-right">
             <form action="">
                 <input type="text" placeholder="Your Name">
-                <input type="email" name="" id="" placeholder="Your Email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
                 <input type="button" value="Send" class="contact-button">
             </form>
         </div>

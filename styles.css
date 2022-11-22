@@ -41,6 +41,12 @@ body {
     color: gray;
 }
 
+.github__icon i{
+    font-size:45px;
+    color: var(--text-color);
+    margin-left: 25px;
+}
+
 header {
     position: fixed;
     width: 100%;
@@ -59,8 +65,12 @@ header {
 header.shadow {
     box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
+.logo__container{
+    display:flex;
+    align-items: center;
+}
 .logo {
-    font-size: 1.61rem;
+    font-size: 1.7rem;
     font-weight: 600;
     color: var(--text-color);
 }
