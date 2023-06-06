@@ -27,7 +27,7 @@
 
 section {
     padding: 0 5%;
-    height: 90vh;
+    height: 100vh;
     margin-top: 0;
 }
 
@@ -44,6 +44,7 @@ body.active {
 }
 
 .heading {
+    padding-top: 15px;
     margin-bottom: 13px;
 }
 
@@ -259,16 +260,15 @@ p {
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 1rem;
     padding: 1rem;
 }
 
 .skill-box img {
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
 }
-
 
 .projects__container {
     position: relative;
@@ -281,19 +281,21 @@ p {
 
 .projects-carousel {
     display: flex;
-    gap: 1rem;
+    align-items: center;
     transition: transform 0.5s ease-in-out;
-    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
 }
 
 .project-card {
     border-radius: 30px;
     min-height: 80%;
-    margin: 1.2em;
-    margin-bottom: 0.2 em;
-    width: 100%;
+    min-width: 98%;
+    margin: 1em;
+    margin-top: 2em;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .project__title {
@@ -353,13 +355,15 @@ p {
 }
 
 .project__details__card a {
-    background-color: blue;
+    background-color: #ff7b9e;
     font-style: inherit;
     font-weight: 800;
     color: black;
     padding: .3em;
     border-radius: 5px;
     margin: 1em;
+    width: 200px;
+    align-self: center;
 }
 
 .wrapper-holder {
@@ -467,6 +471,36 @@ footer {
 
     #darkmode {
         right: 0.2rem;
+    }
+
+    .projects__container {
+        height: 90vh;
+    }
+
+    .project__title {
+        display: block;
+        height: auto;
+        text-align: center;
+        padding: 2px;
+    }
+
+    .project-card {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .wrapper-holder {
+        width: 80vw;
+    }
+
+    .img-wrapper {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .project__details__card {
+        width: 90%;
+        height: 45vh;
     }
 
 }
