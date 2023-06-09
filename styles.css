@@ -354,7 +354,7 @@ p {
     display: none;
 }
 
-.project__details__card a {
+.view-project {
     background-color: #ff7b9e;
     font-style: inherit;
     font-weight: 800;
